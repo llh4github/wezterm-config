@@ -7,6 +7,7 @@ return {
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
+   -- window_decorations = 'NONE',
    -- webgpu_preferred_adapter = gpu_adapters:pick_manual('Dx12', 'IntegratedGpu'),
    -- webgpu_preferred_adapter = gpu_adapters:pick_manual('Gl', 'Other'),
 
@@ -39,7 +40,7 @@ return {
       left = 0,
       right = 0,
       top = 10,
-      bottom = 7.5,
+      bottom = 5,
    },
    adjust_window_size_when_changing_font_size = false,
    window_close_confirmation = 'NeverPrompt',
