@@ -11,7 +11,7 @@ if platform.is_win then
       { label = 'PowerShell Core', args = { 'pwsh', '-NoLogo' } },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt', args = { 'cmd' } },
-      { label = 'Nushell', args = { 'nu' } },
+      { label = 'Default Wsl', args = { 'wsl' } },
    }
 elseif platform.is_mac then
    options.default_prog = { '/opt/homebrew/bin/fish', '-l' }
