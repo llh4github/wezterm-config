@@ -196,11 +196,14 @@
 
 - ##### Steps:
 
-  1.  ```sh
-      # On Windows and Unix systems
-      git clone https://github.com/KevinSilvester/wezterm-config.git ~/.config/wezterm
-      ```
-  2.  And Done!!! 🎉🎉
+  ```sh
+      # On Unix systems
+      git clone https://github.com/llh4github/wezterm-config.git ~/.config/wezterm
+
+      # On Windows systems
+      git clone https://github.com/llh4github/wezterm-config.git %USERPROFILE%\.config\wezterm
+  ```
+
 
 &nbsp;
 
