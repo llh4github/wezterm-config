@@ -231,9 +231,9 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 | Keys                              | Action                                      |
 | --------------------------------- | ------------------------------------------- |
-| <kbd>F1</kbd>                     | `ActivateCopyMode`                          |
-| <kbd>F2</kbd>                     | `ActivateCommandPalette`                    |
-| <kbd>F3</kbd>                     | `ShowLauncher`                              |
+| <kbd>SUPER_REV</kbd>  + <kbd>c</kbd>                     | `ActivateCopyMode`                          |
+| <kbd>SUPER</kbd>  + <kbd>p</kbd>                    | `ActivateCommandPalette`                    |
+| <kbd>SUPER</kbd>  + <kbd>s</kbd>                    | `ShowLauncher`                              |
 | <kbd>F4</kbd>                     | `ShowLauncher` <sub>(tabs only)</sub>       |
 | <kbd>F5</kbd>                     | `ShowLauncher` <sub>(workspaces only)</sub> |
 | <kbd>F11</kbd>                    | `ToggleFullScreen`                          |

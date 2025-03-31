@@ -16,10 +16,11 @@ end
 -- stylua: ignore
 local keys = {
    -- misc/useful --
-   { key = 'F1', mods = 'NONE', action = 'ActivateCopyMode' },
-   { key = 'F2', mods = 'NONE', action = act.ActivateCommandPalette },
-   { key = 'F3', mods = 'NONE', action = act.ShowLauncher },
-   { key = 'F4', mods = 'NONE', action = act.ShowLauncherArgs({ flags = 'FUZZY|TABS' }) },
+   { key = 's', mods = mod.SUPER, action = act.ShowLauncher },
+
+   { key = 'c', mods = mod.SUPER_REV, action = 'ActivateCopyMode' },
+   { key = 'p', mods = mod.SUPER, action = act.ActivateCommandPalette },
+   { key = 'e', mods = mod.SUPER_REV, action = act.ShowLauncherArgs({ flags = 'FUZZY|TABS' }) },
    {
       key = 'F5',
       mods = 'NONE',
